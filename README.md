@@ -12,6 +12,6 @@ Cookieless web analytics your AI agent can read. This plugin connects Claude Cod
 /plugin install measuremysite@measuremysite
 ```
 
-Then run `/mcp`, pick `measuremysite` and sign in. A browser page opens where you enter your email and domain; no API key is pasted anywhere. Free for 5,000 pageviews a month.
+Then run `/mcp`, pick `measuremysite` and sign in. A browser page opens where you enter your email and domain; no API key is pasted anywhere. 30-day free trial, no card; plans from $9/month. Showing the optional "Analytics by measuremy.site" badge on your site adds 50% to your monthly pageviews.
 
 Docs: https://measuremy.site/docs/mcp

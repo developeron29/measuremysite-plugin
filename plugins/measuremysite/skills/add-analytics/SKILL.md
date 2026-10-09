@@ -5,7 +5,7 @@ description: Adds measuremy.site cookieless web analytics to a website project (
 
 # Add measuremy.site analytics
 
-measuremy.site is one script tag under 1 KB: no cookies, no npm package. Its MCP server, `measuremysite`, gives you the site's snippet and its traffic. The free plan covers 5,000 pageviews a month.
+measuremy.site is one script tag under 1 KB: no cookies, no npm package. Its MCP server, `measuremysite`, gives you the site's snippet and its traffic. New accounts get a 30-day free trial, no card; plans start at $9/month.
 
 ## 1. Make sure the MCP server is connected
 
@@ -50,6 +50,8 @@ For a plain link, button or form, an attribute is enough: `data-measuremysite-ev
 ## 5. Verify
 
 Visits from `localhost` aren't counted. After the user deploys, the first visit to the live domain verifies it. Call `get_setup` again: `verified` turns true and `next_step` says what is left.
+
+`get_setup` also returns an optional `badge` snippet: offer it to the user (it adds 50% to their monthly pageviews and 30 days to a trial), but only add it to the site if they want it.
 
 Skip `get_setup`'s `slash_commands`: this plugin already provides `/measuremysite:make-public` and `/measuremysite:make-private`.
 
