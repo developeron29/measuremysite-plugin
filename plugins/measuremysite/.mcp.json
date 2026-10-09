@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "measuremysite": {
+      "type": "http",
+      "url": "https://a.measuremy.site/mcp"
+    }
+  }
+}

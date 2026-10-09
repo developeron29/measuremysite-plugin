@@ -1,0 +1,16 @@
+{
+  "name": "measuremysite",
+  "description": "measuremy.site: cookieless web analytics your AI agent can read",
+  "owner": {
+    "name": "measuremy.site",
+    "email": "adam@measuremy.site",
+    "url": "https://measuremy.site"
+  },
+  "plugins": [
+    {
+      "name": "measuremysite",
+      "source": "./plugins/measuremysite",
+      "description": "Cookieless web analytics your AI agent can read: add the tracker in one prompt, then ask about traffic, spikes and what caused them, funnels and campaigns."
+    }
+  ]
+}

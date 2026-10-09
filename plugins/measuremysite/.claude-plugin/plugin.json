@@ -1,0 +1,26 @@
+{
+  "name": "measuremysite",
+  "displayName": "measuremy.site",
+  "version": "1.0.0",
+  "description": "Cookieless web analytics your AI agent can read: add the tracker in one prompt, then ask about traffic, spikes and what caused them, funnels and campaigns.",
+  "author": {
+    "name": "measuremy.site",
+    "email": "adam@measuremy.site",
+    "url": "https://measuremy.site"
+  },
+  "homepage": "https://measuremy.site",
+  "repository": "https://github.com/developeron29/measuremysite-plugin",
+  "license": "MIT",
+  "keywords": [
+    "analytics",
+    "web-analytics",
+    "privacy",
+    "cookieless",
+    "google-analytics-alternative",
+    "mcp"
+  ],
+  "documentationUrl": "https://measuremy.site/docs/mcp",
+  "supportUrl": "https://measuremy.site/contact",
+  "privacyPolicyUrl": "https://measuremy.site/privacy",
+  "termsOfServiceUrl": "https://measuremy.site/terms"
+}
