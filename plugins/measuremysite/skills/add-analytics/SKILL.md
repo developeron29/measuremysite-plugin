@@ -17,7 +17,7 @@ Look for the `measuremysite` MCP tools (`get_setup`, `get_overview`, ...).
 
 ## 2. Get the snippet
 
-Call `get_setup`. It returns the site's `snippet` (with its public `data-key`), `where` it goes for each framework, CSP advice, and whether the domain is verified. Use the snippet exactly as returned; don't invent a key.
+Call `get_setup` with `domain` set to the project's production domain (from its config, README or deploy settings; ask the user if unsure). One sign-in covers every site in the account: a new domain is added if the plan has room, and `other_sites` lists the rest. Never install a snippet for a different domain than the project's. It returns the site's `snippet` (with its public `data-key`), `where` it goes for each framework, CSP advice, and whether the domain is verified. Use the snippet exactly as returned; don't invent a key.
 
 ## 3. Add it to the project
 
@@ -49,7 +49,7 @@ For a plain link, button or form, an attribute is enough: `data-measuremysite-ev
 
 ## 5. Verify
 
-Visits from `localhost` aren't counted. After the user deploys, the first visit to the live domain verifies it. Call `get_setup` again: `verified` turns true and `next_step` says what is left.
+Visits from `localhost` aren't counted. After the user deploys, the first visit to the live domain verifies it. Call `get_setup` again (same `domain`): `verified` turns true and `next_step` says what is left.
 
 `get_setup` also returns an optional `badge` snippet: offer it to the user (it adds 50% to their monthly pageviews and 30 days to a trial), but only add it to the site if they want it.
 

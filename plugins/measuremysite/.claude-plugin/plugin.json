@@ -1,7 +1,7 @@
 {
   "name": "measuremysite",
   "displayName": "measuremy.site",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Cookieless web analytics your AI agent can read: add the tracker in one prompt, then ask about traffic, spikes and what caused them, funnels and campaigns.",
   "author": {
     "name": "measuremy.site",
