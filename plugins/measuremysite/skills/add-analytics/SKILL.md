@@ -13,7 +13,7 @@ Look for the `measuremysite` MCP tools (`get_setup`, `get_overview`, ...).
 
 - **Tools available:** go to step 2.
 - **Server listed but not signed in:** tell the user to run `/mcp`, pick `measuremysite` and sign in. A browser page opens where they enter their email and domain. Nothing secret passes through you.
-- **No server at all** (skill used without the plugin): run `claude mcp add --transport http measuremysite https://a.measuremy.site/mcp`, then ask the user to restart (`claude -c` keeps the conversation) and sign in.
+- **No server at all** (skill used without the plugin): run `claude mcp add --scope user --transport http measuremysite https://a.measuremy.site/mcp` (every project gets it; one sign-in covers every site), then ask the user to restart (`claude -c` keeps the conversation) and sign in.
 
 ## 2. Get the snippet
 
